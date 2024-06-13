@@ -10,6 +10,7 @@ public class FuelController : MonoBehaviour
     [SerializeField] private Image _fuelImage;
     [SerializeField, Range(0.1f, 5f)] private float _fuelDrainSpeed = 1f;
     [SerializeField] private float _maxFuelAmount = 100f;
+    [SerializeField] private Gradient _fuelGradient;
 
     private float _currentFuelAmount;
 
@@ -31,10 +32,16 @@ public class FuelController : MonoBehaviour
     {
         _currentFuelAmount -= Time.deltaTime * _fuelDrainSpeed;
         UpdateUI();
+
+        if (_currentFuelAmount <= 0f)
+        {
+            GameManager.instance.GameOver();
+        }
     }
 
     private void UpdateUI()
     {
         _fuelImage.fillAmount = (_currentFuelAmount / _maxFuelAmount);
+        _fuelImage.color = _fuelGradient.Evaluate(_fuelImage.fillAmount);
     }
 }
