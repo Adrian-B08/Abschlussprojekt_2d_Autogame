@@ -1,9 +1,5 @@
 # Abschlussprojekt 2D Autogame
 
-## Projektübersicht
-
-Dies ist das Abschlussprojekt für ein 2D-Autospiel, das in Unity entwickelt wurde. Mit diesem Spiel können Sie Ihre Fahrkünste testen und gegen andere Spieler antreten. Folgen Sie den untenstehenden Anweisungen, um das Projekt auf Ihren lokalen Rechner zu klonen und das Spiel auszuführen.
-
 ## Voraussetzungen
 
 - Ein Terminal
@@ -26,13 +22,15 @@ Navigieren Sie in den Ordner, in den Sie das Projekt geklont haben:
 
 ### ZIP-Datei entpacken
 
-Entpacken Sie die Datei `Unity_Game_exe.zip` an einen gewünschten Ort. Sie können dies entweder über Ihr Entpackungsprogramm oder über die Kommandozeile tun:
-
-```unzip Unity_Game_exe.zip -d Zielordner```
+Entpacken Sie die Datei `Unity_Game_exe.zip` an einen gewünschten Ort.
 
 ### Spiel ausführen
 
 Öffnen Sie den entpackten Ordner und doppelklicken Sie auf `car_game.exe`, um das Spiel zu starten.
+
+### Spiel beenden
+
+Um das Spiel zu beenden drücken sie alt + f4.
 
 ## Spielanleitung
 
