@@ -1,3 +1,10 @@
+/*
+Author: Adrian Bischoff
+Date: 28.06.2024
+Version: 1.0
+Description: This code is used that the Player dies when the head touches the ground.
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
