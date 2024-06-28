@@ -36,4 +36,4 @@ Um das Spiel zu beenden drücken sie alt + f4.
 
 Hier ist eine verbesserte Version:
 
-Das Ziel des Spiels ist es, ans Ende der Welt zu gelangen. Du kannst das Auto entweder mit den Tasten "A" und "D" oder den Pfeiltasten steuern. Zusätzlich ist es möglich, das Auto in der Luft zu manövrieren. Während der Fahrt benötigst du Treibstoff, den du durch das Einsammeln von Kanistern entlang der Strecke wieder auffüllen kannst. Zusätzlich gibt es Münzen zum Sammeln.
+Das Ziel des Spiels ist es, ans Ende der Welt zu gelangen. Man kann das Auto entweder mit den Tasten "A" und "D" oder den Pfeiltasten steuern. Zusätzlich ist es möglich, das Auto in der Luft zu bewegen. Während der Fahrt benötigt man Treibstoff, welchen man durch das Einsammeln von Kanistern entlang der Strecke wieder auffüllen kann. Zusätzlich gibt es Münzen zum Sammeln, welche im Moment noch nichts machen.
