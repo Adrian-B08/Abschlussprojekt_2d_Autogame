@@ -8,7 +8,7 @@ public class EnvironmmentGenerator : MonoBehaviour
 {
     [SerializeField] private SpriteShapeController _spriteShapeController;
 
-    [SerializeField, Range(3f, 100f)] private int _levelLength = 50;
+    [SerializeField, Range(3f, 200f)] private int _levelLength = 200;
     [SerializeField, Range(1f, 50f)] private float _xMultiplier = 2f;
     [SerializeField, Range(1f, 50f)] private float _yMultiplier = 2f;
     [SerializeField, Range(0f, 1f)] private float _curveSmoothness = 0.5f;

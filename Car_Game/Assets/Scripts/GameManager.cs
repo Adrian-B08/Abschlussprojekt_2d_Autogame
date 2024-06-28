@@ -8,19 +8,11 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField] private GameObject _gameOverCanvas;
-    [SerializeField] private GameObject _startGameCanvas;
 
     private void Awake()
     {
         if (instance == null)
-        {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
 
         Time.timeScale = 1f;
     }
@@ -35,17 +27,4 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-    public void StartGame()
-    {
-        Time.timeScale = 1f;
-
-        if (_startGameCanvas != null)
-        {
-            _startGameCanvas.SetActive(false);
-        }
-
-        SceneManager.LoadScene("MainGameScene");
-    }
-
 }
